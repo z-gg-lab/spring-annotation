@@ -61,6 +61,7 @@
       }
       ```
 
+  
 * @Bean注解，可以配合@Conditional实现条件注册，@Scope（默认是单例）配置作用范围，@Lazy实现懒加载。
 
   ```xml
