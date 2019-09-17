@@ -8,7 +8,7 @@
     <!--<context:component-scan base-package="com.tail" use-default-filters="false"/>-->
 
     <!--<bean id="person" class="com.tail.bean.Person" scope="prototype">-->
-        <!--<property name="name" value="tail"></property>-->
-        <!--<property name="age" value="12"></property>-->
+    <!--<property name="name" value="tail"></property>-->
+    <!--<property name="age" value="12"></property>-->
     <!--</bean>-->
 </beans>

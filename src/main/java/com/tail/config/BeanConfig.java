@@ -31,7 +31,7 @@ import java.security.PublicKey;
 @Log
 // 导入组件，id默认是组件的全类名
 @Import({Color.class,MyImportSelector.class,MyImportBeanDefinitionRegistrar.class})
-public class SpringConfig {
+public class BeanConfig {
 
     /**
      * 向容器注册一个Bean，类型为返回值类型，id默认为方法名
@@ -93,7 +93,7 @@ public class SpringConfig {
      * 2.@Bean（第三方包里面的组件）
      * 3.@Import（快速给容器导入组件）
      *      1.@Import(Class):id默认为组件的全类名
-     *      2.ImportSelector:返回导入组件的全类名数组
+     *      2.ImportSelector:返回需要注册组件的全类名数组
      *      3.ImportBeanDefinitionRegistrar:手动注册bean到容器
      * 4.使用Spring提供的FactoryBean（工厂Bean）
      *      1.默认获取的是getObject()创建的对象

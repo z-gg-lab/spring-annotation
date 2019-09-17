@@ -1,8 +1,7 @@
 package com.tail;
 
-import com.tail.bean.ColorFactoryBean;
 import com.tail.bean.Person;
-import com.tail.config.SpringConfig;
+import com.tail.config.BeanConfig;
 import lombok.extern.java.Log;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -12,7 +11,7 @@ import java.util.Map;
 @Log
 public class IOCTest {
 
-    AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(SpringConfig.class);
+    AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(BeanConfig.class);
 
     @Test
     public void test01(){
