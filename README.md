@@ -62,8 +62,9 @@
       ```
 
 * 组件注册的方式
-  * 使用@ComponentScan配置包扫描。
-
+  
+* 使用@ComponentScan配置包扫描。
+  
 * @Bean注解，可以配合@Conditional实现条件注册，@Scope（默认是单例）配置作用范围，@Lazy实现懒加载。
 
   ```xml
@@ -74,7 +75,7 @@
    </bean>
   ```
 
-  * @Conditional({<T entend Condition>})可以标注在类或者方法上，实现Condition接口即可
+  * @Conditional({WindowsCondition.class})可以标注在类或者方法上，实现Condition接口即可
 
     ```java
     /**
