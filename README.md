@@ -169,7 +169,7 @@
   * 获取工厂Bean，需要在id前加**&**，即 
 
     ```java
-    context.getBean("&colorFactoryBean")
+    ColorFactoryBean colorFactoryBean = context.getBean("&colorFactoryBean")
     ```
 
     
